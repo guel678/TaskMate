@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "TaskMate",
+    "slug": "taskmate",
+    "description": "A simple offline task manager for planning and completing everyday work.",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "backgroundColor": "#FAF7F4",
+    "primaryColor": "#B94732",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.derit.taskmate"
+    },
+    "android": {
+      "package": "com.derit.taskmate",
+      "permissions": [
+        "SCHEDULE_EXACT_ALARM"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#FAF7F4",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-sqlite",
+      [
+        "expo-notifications",
+        {
+          "defaultChannel": "task-reminders-miguel-v1",
+          "sounds": [
+            "./assets/notifications/miguel.wav"
+          ]
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FAF7F4",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 196,
+          "resizeMode": "contain"
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
