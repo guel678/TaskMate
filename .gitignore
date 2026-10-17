@@ -50,6 +50,9 @@ yarn-error.*
 .vs/
 skills-lock.json
 tmp/
+.impeccable/questions/
+.impeccable/mocks/
+.impeccable/review/
 
 # local migration backups
 package.json.before-*

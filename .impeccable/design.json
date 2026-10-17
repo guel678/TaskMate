@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T03:21:43.074Z",
+  "title": "Design System: TaskMate",
+  "extensions": {
+    "colorMeta": {
+      "page-warm": {
+        "role": "neutral",
+        "displayName": "Warm Ground",
+        "canonical": "#efe9e5",
+        "tonalRamp": ["oklch(15% 0.008 56.3)", "oklch(26% 0.008 56.3)", "oklch(38% 0.008 56.3)", "oklch(50% 0.008 56.3)", "oklch(62% 0.008 56.3)", "oklch(74% 0.008 56.3)", "oklch(86% 0.008 56.3)", "oklch(95% 0.008 56.3)"]
+      },
+      "background-paper": {
+        "role": "neutral",
+        "displayName": "Clean Paper",
+        "canonical": "#faf7f4",
+        "tonalRamp": ["oklch(15% 0.005 67.8)", "oklch(26% 0.005 67.8)", "oklch(38% 0.005 67.8)", "oklch(50% 0.005 67.8)", "oklch(62% 0.005 67.8)", "oklch(74% 0.005 67.8)", "oklch(86% 0.005 67.8)", "oklch(95% 0.005 67.8)"]
+      },
+      "surface-white": {
+        "role": "neutral",
+        "displayName": "White Sheet",
+        "canonical": "#ffffff",
+        "tonalRamp": ["oklch(15% 0 0)", "oklch(26% 0 0)", "oklch(38% 0 0)", "oklch(50% 0 0)", "oklch(62% 0 0)", "oklch(74% 0 0)", "oklch(86% 0 0)", "oklch(95% 0 0)"]
+      },
+      "surface-muted": {
+        "role": "neutral",
+        "displayName": "Soft Paper Muted",
+        "canonical": "#f2ece8",
+        "tonalRamp": ["oklch(15% 0.008 56.3)", "oklch(26% 0.008 56.3)", "oklch(38% 0.008 56.3)", "oklch(50% 0.008 56.3)", "oklch(62% 0.008 56.3)", "oklch(74% 0.008 56.3)", "oklch(86% 0.008 56.3)", "oklch(95% 0.008 56.3)"]
+      },
+      "action-rust": {
+        "role": "primary",
+        "displayName": "Rust Red Action",
+        "canonical": "#b94732",
+        "tonalRamp": ["oklch(15% 0.152 32.5)", "oklch(26% 0.152 32.5)", "oklch(38% 0.152 32.5)", "oklch(50% 0.152 32.5)", "oklch(62% 0.152 32.5)", "oklch(74% 0.152 32.5)", "oklch(86% 0.152 32.5)", "oklch(95% 0.152 32.5)"]
+      },
+      "action-rust-pressed": {
+        "role": "primary",
+        "displayName": "Deep Rust Press",
+        "canonical": "#9f3828",
+        "tonalRamp": ["oklch(15% 0.140 31.4)", "oklch(26% 0.140 31.4)", "oklch(38% 0.140 31.4)", "oklch(50% 0.140 31.4)", "oklch(62% 0.140 31.4)", "oklch(74% 0.140 31.4)", "oklch(86% 0.140 31.4)", "oklch(95% 0.140 31.4)"]
+      },
+      "action-rust-soft": {
+        "role": "primary",
+        "displayName": "Blush Paper Cue",
+        "canonical": "#f7ddd6",
+        "tonalRamp": ["oklch(15% 0.030 35.5)", "oklch(26% 0.030 35.5)", "oklch(38% 0.030 35.5)", "oklch(50% 0.030 35.5)", "oklch(62% 0.030 35.5)", "oklch(74% 0.030 35.5)", "oklch(86% 0.030 35.5)", "oklch(95% 0.030 35.5)"]
+      },
+      "priority-ink": {
+        "role": "primary",
+        "displayName": "Priority Rust Ink",
+        "canonical": "#7a2f21",
+        "tonalRamp": ["oklch(15% 0.103 31.6)", "oklch(26% 0.103 31.6)", "oklch(38% 0.103 31.6)", "oklch(50% 0.103 31.6)", "oklch(62% 0.103 31.6)", "oklch(74% 0.103 31.6)", "oklch(86% 0.103 31.6)", "oklch(95% 0.103 31.6)"]
+      },
+      "ink-deep": {
+        "role": "neutral",
+        "displayName": "Deep Cocoa Ink",
+        "canonical": "#211c1a",
+        "tonalRamp": ["oklch(15% 0.009 43.1)", "oklch(26% 0.009 43.1)", "oklch(38% 0.009 43.1)", "oklch(50% 0.009 43.1)", "oklch(62% 0.009 43.1)", "oklch(74% 0.009 43.1)", "oklch(86% 0.009 43.1)", "oklch(95% 0.009 43.1)"]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Muted Cocoa",
+        "canonical": "#6d5f59",
+        "tonalRamp": ["oklch(15% 0.020 44.6)", "oklch(26% 0.020 44.6)", "oklch(38% 0.020 44.6)", "oklch(50% 0.020 44.6)", "oklch(62% 0.020 44.6)", "oklch(74% 0.020 44.6)", "oklch(86% 0.020 44.6)", "oklch(95% 0.020 44.6)"]
+      },
+      "border-warm": {
+        "role": "neutral",
+        "displayName": "Warm Divider",
+        "canonical": "#ddd1cb",
+        "tonalRamp": ["oklch(15% 0.016 48.5)", "oklch(26% 0.016 48.5)", "oklch(38% 0.016 48.5)", "oklch(50% 0.016 48.5)", "oklch(62% 0.016 48.5)", "oklch(74% 0.016 48.5)", "oklch(86% 0.016 48.5)", "oklch(95% 0.016 48.5)"]
+      },
+      "focus-brown": {
+        "role": "primary",
+        "displayName": "Focus Brown",
+        "canonical": "#5c2b22",
+        "tonalRamp": ["oklch(15% 0.074 31.8)", "oklch(26% 0.074 31.8)", "oklch(38% 0.074 31.8)", "oklch(50% 0.074 31.8)", "oklch(62% 0.074 31.8)", "oklch(74% 0.074 31.8)", "oklch(86% 0.074 31.8)", "oklch(95% 0.074 31.8)"]
+      },
+      "check-outline": {
+        "role": "neutral",
+        "displayName": "Checkbox Graphite",
+        "canonical": "#87766f",
+        "tonalRamp": ["oklch(15% 0.024 45)", "oklch(26% 0.024 45)", "oklch(38% 0.024 45)", "oklch(50% 0.024 45)", "oklch(62% 0.024 45)", "oklch(74% 0.024 45)", "oklch(86% 0.024 45)", "oklch(95% 0.024 45)"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Editorial Display",
+        "purpose": "The compact two-line product promise."
+      },
+      "headline": {
+        "displayName": "Editorial Headline",
+        "purpose": "Major section transitions."
+      },
+      "title": {
+        "displayName": "Proof Title",
+        "purpose": "Titles inside credible product demonstrations."
+      },
+      "body": {
+        "displayName": "Practical Body",
+        "purpose": "Explanations and installation guidance."
+      },
+      "label": {
+        "displayName": "Factual Label",
+        "purpose": "Navigation, badges, metadata, and release facts."
+      },
+      "action": {
+        "displayName": "Confident Action",
+        "purpose": "The primary download call to action."
+      }
+    },
+    "shadows": [
+      {
+        "name": "proof-ambient",
+        "value": "0 30px 70px rgba(65, 35, 27, 0.13)",
+        "purpose": "The main task-list proof only."
+      },
+      {
+        "name": "action-rest",
+        "value": "0 12px 28px rgba(121, 48, 35, 0.25)",
+        "purpose": "The primary download action at rest."
+      },
+      {
+        "name": "action-hover",
+        "value": "0 16px 34px rgba(121, 48, 35, 0.31)",
+        "purpose": "A slightly stronger lift on pointer hover."
+      },
+      {
+        "name": "release-ambient",
+        "value": "0 18px 50px rgba(65, 35, 27, 0.10)",
+        "purpose": "The factual release-verification card."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-fast",
+        "value": "180ms ease-out",
+        "purpose": "Hover and press feedback on the primary action."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "Near-instant transitions when reduced motion is requested."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "820px"
+      },
+      {
+        "name": "phone",
+        "value": "520px"
+      },
+      {
+        "name": "narrow",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Site Header",
+      "kind": "nav",
+      "refersTo": "nav-site-header",
+      "description": "A quiet brand-and-source row that keeps identity and provenance visible.",
+      "html": "<nav class=\"ds-site-header\" aria-label=\"TaskMate\"><a class=\"ds-brand\" href=\"#\"><svg viewBox=\"0 0 96 96\" aria-hidden=\"true\"><rect width=\"96\" height=\"96\" rx=\"23\" fill=\"var(--primary)\"/><path d=\"M25 49.5 41.5 66 72 31.5\" fill=\"none\" stroke=\"var(--surface)\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><span>TaskMate</span></a><a class=\"ds-source\" href=\"#\">View source<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M6 3h7v7M13 3 5 11M11 9v4H3V5h4\"/></svg></a></nav>",
+      "css": ".ds-site-header { display: flex; min-height: 88px; align-items: center; justify-content: space-between; gap: 24px; color: var(--text); font-family: Aptos, \"Segoe UI\", ui-sans-serif, sans-serif; } .ds-brand, .ds-source { display: inline-flex; align-items: center; gap: 10px; color: inherit; font-weight: 760; text-decoration: none; } .ds-brand svg { width: 36px; height: 36px; border-radius: 9px; } .ds-source { color: var(--muted); font-size: 0.9rem; } .ds-source svg { width: 14px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; } .ds-source:hover { color: var(--text); } .ds-brand:focus-visible, .ds-source:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }"
+    },
+    {
+      "name": "Primary Download Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single high-emphasis action for downloading the Android release.",
+      "html": "<a class=\"ds-download\" href=\"#\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3v12m0 0 5-5m-5 5-5-5M5 21h14\"/></svg>Download for Android</a>",
+      "css": ".ds-download { display: inline-flex; min-height: 56px; align-items: center; justify-content: center; gap: 11px; padding: 0 22px; border-radius: 13px; color: var(--surface); background: var(--primary); box-shadow: 0 12px 28px rgba(121, 48, 35, 0.25); font-family: Aptos, \"Segoe UI\", ui-sans-serif, sans-serif; font-weight: 760; text-decoration: none; transition: transform 180ms ease-out, background-color 180ms ease-out, box-shadow 180ms ease-out; } .ds-download svg { width: 21px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2; } .ds-download:hover { background: var(--primary-pressed); box-shadow: 0 16px 34px rgba(121, 48, 35, 0.31); transform: translateY(-2px); } .ds-download:active { transform: translateY(0); } .ds-download:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; } @media (prefers-reduced-motion: reduce) { .ds-download { transition-duration: 0.01ms; } }"
+    },
+    {
+      "name": "Progress Chip",
+      "kind": "chip",
+      "refersTo": "chip-progress",
+      "description": "A low-contrast, tabular status capsule for completion progress.",
+      "html": "<span class=\"ds-progress\" aria-label=\"One of three tasks complete\">1 / 3</span>",
+      "css": ".ds-progress { display: inline-block; padding: 7px 10px; border-radius: 999px; color: var(--muted); background: var(--surface-muted); font-family: Aptos, \"Segoe UI\", ui-sans-serif, sans-serif; font-size: 0.78rem; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Priority Chip",
+      "kind": "chip",
+      "refersTo": "chip-priority",
+      "description": "A compact rust-tinted marker for high-priority work.",
+      "html": "<span class=\"ds-priority\">High</span>",
+      "css": ".ds-priority { display: inline-block; padding: 6px 9px; border-radius: 999px; color: #7a2f21; background: var(--primary-soft); font-family: Aptos, \"Segoe UI\", ui-sans-serif, sans-serif; font-size: 0.78rem; font-weight: 750; }"
+    },
+    {
+      "name": "Task-List Proof",
+      "kind": "custom",
+      "refersTo": "card-task-list",
+      "description": "The signature paper-like product proof, using three believable task states.",
+      "html": "<section class=\"ds-task-list\" aria-label=\"TaskMate feature preview\"><div class=\"ds-list-heading\"><div><strong>Three clear priorities</strong><span>Example task list</span></div><span class=\"ds-progress\">1 / 3</span></div><div class=\"ds-task-row ds-complete\"><span class=\"ds-check\" aria-hidden=\"true\"><svg viewBox=\"0 0 16 16\"><path d=\"m3.5 8 3 3 6-7\"/></svg></span><div><strong>Plan the day</strong><span>Completed</span></div></div><div class=\"ds-task-row\"><span class=\"ds-check\" aria-hidden=\"true\"></span><div><strong>Finish project notes</strong><span>Due today</span></div><span class=\"ds-priority\">High</span></div><div class=\"ds-task-row\"><span class=\"ds-check\" aria-hidden=\"true\"></span><div><strong>Prepare tomorrow</strong><span>No due date</span></div></div></section>",
+      "css": ".ds-task-list { position: relative; max-width: 500px; padding: 30px; border-radius: 16px; color: var(--text); background: var(--background); box-shadow: 0 30px 70px rgba(65, 35, 27, 0.13); font-family: Aptos, \"Segoe UI\", ui-sans-serif, sans-serif; transform: rotate(1.5deg); } .ds-task-list::before { position: absolute; inset: -16px 18px 18px -18px; z-index: -1; border-radius: 16px; background: var(--primary-soft); content: \"\"; transform: rotate(-4deg); } .ds-list-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; padding-bottom: 26px; } .ds-list-heading div, .ds-task-row div { display: grid; gap: 4px; } .ds-list-heading strong { font-family: Newsreader, Georgia, serif; font-size: 1.55rem; font-weight: 500; } .ds-list-heading span, .ds-task-row span { color: var(--muted); font-size: 0.78rem; } .ds-task-row { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 12px; align-items: center; min-height: 70px; padding: 16px 0; border-top: 1px solid var(--border); } .ds-task-row strong { font-size: 0.95rem; line-height: 1.35; } .ds-check { display: grid; width: 22px; height: 22px; place-items: center; border: 1.5px solid #87766f; border-radius: 7px; } .ds-check svg { width: 14px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2; } .ds-complete strong { color: var(--muted); text-decoration: line-through; } .ds-complete .ds-check { border-color: var(--primary); color: var(--surface); background: var(--primary); } .ds-progress { padding: 7px 10px; border-radius: 999px; background: var(--surface-muted); font-variant-numeric: tabular-nums; } .ds-priority { padding: 6px 9px; border-radius: 999px; color: #7a2f21 !important; background: var(--primary-soft); font-weight: 750; } @media (max-width: 820px) { .ds-task-list { transform: none; } .ds-task-list::before { inset: 8px 8px -8px -8px; transform: rotate(-2deg); } } @media (prefers-reduced-motion: reduce) { .ds-task-list, .ds-task-list::before { transform: none; } }"
+    },
+    {
+      "name": "Release Card",
+      "kind": "card",
+      "refersTo": "card-release",
+      "description": "A factual verification card for version, platform, package, and checksum.",
+      "html": "<section class=\"ds-release-card\"><div class=\"ds-release-header\"><span>Latest release</span><strong>v1.0.0</strong></div><dl><div><dt>Platform</dt><dd>Android</dd></div><div><dt>Package</dt><dd>APK · 76.3 MiB</dd></div><div><dt>SHA-256</dt><dd title=\"C9268F89E8E113E22B600F6061FBDE14EDDBDC568D05B02601E418119F7ABBF0\">C9268F89…9F7ABBF0</dd></div></dl></section>",
+      "css": ".ds-release-card { max-width: 440px; padding: 26px; border-radius: 16px; color: var(--text); background: var(--surface); box-shadow: 0 18px 50px rgba(65, 35, 27, 0.10); font-family: Aptos, \"Segoe UI\", ui-sans-serif, sans-serif; } .ds-release-header, .ds-release-card dl div { display: flex; align-items: center; justify-content: space-between; gap: 20px; } .ds-release-header { padding-bottom: 20px; } .ds-release-header span, .ds-release-card dt { color: var(--muted); } .ds-release-card dl { margin: 0; } .ds-release-card dl div { padding: 15px 8px; border-top: 1px solid var(--border); } .ds-release-card dt, .ds-release-card dd { margin: 0; font-size: 0.9rem; } .ds-release-card dd { font-weight: 720; font-variant-numeric: tabular-nums; text-align: right; overflow-wrap: anywhere; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Daybook",
+    "overview": "TaskMate should feel like opening a well-kept paper daybook: warm, composed, and immediately useful. Soft neutral grounds create the atmosphere, crisp paper surfaces organize the content, and a single rust-red voice identifies action and completion. The result is professional without becoming corporate and personal without becoming decorative.\n\nThe system is restrained but not sterile. Newsreader gives major headings an editorial, human cadence; Aptos keeps instructions, task data, and release facts direct. A lightly offset paper layer and selective, broad shadows supply the only expressive depth, while clearly labeled, credible task content keeps the interface grounded in the product.",
+    "keyCharacteristics": [
+      "Warm-neutral paper atmosphere with clean, legible contrast.",
+      "One rust-red action voice for downloads, checks, priorities, and focus.",
+      "Editorial display type paired with practical system sans-serif text.",
+      "Restrained depth built from tonal layers, offset paper, and broad soft shadows.",
+      "Direct copy and credible product proof instead of promotional ornament."
+    ],
+    "rules": [
+      {
+        "name": "The Rust Is an Action Rule",
+        "body": "Rust identifies a decision, state, or completion; it is never used as broad decorative fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The Warm White Rule",
+        "body": "The canvas remains warm and white is reserved for the clearest raised surface, so hierarchy is visible before any shadow appears.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Newsreader speaks at display and proof-title scale; Aptos carries actions, instructions, metadata, and every scannable fact.",
+        "section": "typography"
+      },
+      {
+        "name": "The Short Promise Rule",
+        "body": "Display copy stays compact enough to preserve its deliberate line breaks and low line-height.",
+        "section": "typography"
+      },
+      {
+        "name": "The Proof Beside Promise Rule",
+        "body": "On wide screens, the product claim and credible task-list proof share the opening composition; on narrow screens, preserve the same reading order without squeezing either one.",
+        "section": "layout"
+      },
+      {
+        "name": "The Paper Before Shadow Rule",
+        "body": "Establish hierarchy with surface tone and dividers first; reserve shadows for the action and the two proof-bearing cards.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Expressive Tilt Rule",
+        "body": "Only the desktop task-list proof uses rotation and offset paper; remove its rotation on compact layouts so the content stays stable and readable.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Capsule Means Status Rule",
+        "body": "Full pills are reserved for progress and priority metadata, never for large calls to action or general containers.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do keep warm ground visible around clean paper surfaces.",
+      "Do reserve rust-red for action, completion, priority, and focus-related feedback.",
+      "Do pair direct claims with credible task or release details.",
+      "Do preserve visible keyboard focus and the reduced-motion override.",
+      "Do let dividers and spacing organize dense facts before adding elevation."
+    ],
+    "donts": [
+      "Don't introduce gradients, glass panels, glows, abstract SaaS illustration, or decorative analytics.",
+      "Don't turn the rust accent into a large background field or a second typography color.",
+      "Don't make major actions pill-shaped; capsules belong to compact status.",
+      "Don't add competing card grids where a plain row or factual line is clearer.",
+      "Don't retain tilt or hover movement when the visitor requests reduced motion."
+    ]
+  }
+}
